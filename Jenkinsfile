@@ -1,5 +1,5 @@
 node{
-    git brqanch: 'main', url: https://github.com/mohamedahmedfayed2002/projenkins.git'
+    git branch: 'main', url: https://github.com/mohamedahmedfayed2002/projenkins.git'
     stage ('Build'){
         try{
         sh 'echo "build stage"'
