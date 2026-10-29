@@ -1,6 +1,6 @@
 node{
-    git branch: 'main', url: https://github.com/mohamedahmedfayed2002/projenkins.git'
-    stage ('Build'){
+    git branch: 'main', url: 'https://github.com/mohamedahmedfayed2002/projenkins.git'
+    stage ('build'){
         try{
         sh 'echo "build stage"'
         } catch (Exception e) {
